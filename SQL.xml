@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SQL>
+  <MSSql pref="SELECT IDENT_CURRENT ('{1}');" prefparam="@"/>
+  <MySql pref=";SELECT LAST_INSERT_ID()" prefparam="?"/>
+</SQL>
